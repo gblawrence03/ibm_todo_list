@@ -1,5 +1,10 @@
 /* TodoList.css */
 
+p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
 .todo-container {
     max-width: 600px;
     margin: 50px auto;
@@ -68,19 +73,22 @@
     background-color: #f44336;
     color: #fff;
     border: none;
-    padding: 7px 20px;
+    padding: 4px 10px;
+    margin: auto, 2px;
     font-size: 14px;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    height: 40px;
+    height: 30px;
+    justify-content: center;
 }
 
 .delete-button-heading {
     height: 40px;
-    background-color: rgb(46, 163, 46);
+    background-color: #f44336;
     color: #fff;
     border: none;
+    cursor: pointer;
     border-radius: 4px;
 }
 
@@ -88,7 +96,7 @@
     display: flex;
     gap: 20px;
     margin: 10px;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .delete-button:hover {
@@ -111,9 +119,15 @@
     transition: background-color 0.3s ease;
     margin-left: 25px;
 }
+
+.todo_list {
+    padding-inline-start: 10px;
+}
+
 .todo_inside_list {
     display: flex;
-    gap: 140px;
-    margin: 10px;
+    gap: 10px;
+    margin: 3px;
+    justify-content: space-between;
 }
 
